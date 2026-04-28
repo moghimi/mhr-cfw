@@ -53,18 +53,12 @@ pip install -r requirements.txt
 2. From the sidebar, navigate to **Compute > Workers & Pages**
 3. Click **Create Application**, Choose **Start with Hello World** and click on **Deploy**
 4. Click on **Edit code** and **Delete** all the default code in the editor.
-4. Open the [`worker.js`](script/worker.js) file from this project (under `script/`), **copy everything**, and paste it into the Apps Script editor.
-5. **Important:** Change the worker on this line to the worker you created:
+5. Open the [`worker.js`](script/worker.js) file from this project (under `script/`), **copy everything**, and paste it into the Apps Script editor.
+6. **Important:** Change the worker on this line to the worker you created:
    ```javascript
    const WORKER_URL = "myworker.workers.dev";
    ```
-6. Click **Deploy**.
-7. Choose **Web app** as the type.
-8. Set:
-   - **Execute as:** Me
-   - **Who has access:** Anyone
-9. Click **Deploy**.
-10. **Copy the Deployment ID** (it looks like a long random string). You'll need it in the next step.
+7. Click **Deploy**.
 
 ### 3 - Set Up the Google Relay (Code.gs)
 
