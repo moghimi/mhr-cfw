@@ -119,13 +119,13 @@ python3 main.py
 
 You should see a message saying the HTTP proxy is running on `127.0.0.1:8085`
 
+You can use [FoxyProxy](https://getfoxyproxy.org/) [Chrome Extension](https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en) or [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) to use this proxy in your browser.
+
 ### 5 - Test your connection
 
 Open [ipleak.net](https://ipleak.net) in your browser, you should see your ip address set as cloudflare's.
 
 <img width="1454" height="869" alt="image" src="https://github.com/user-attachments/assets/dfd3316d-69b6-4b0e-b564-fdb055dbdafd" />
-
-
 
 
 
