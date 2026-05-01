@@ -12,7 +12,8 @@
 ### آموزش ویدیویی
 [![Watch the video](https://img.youtube.com/vi/L3lJZrAqqUQ/maxresdefault.jpg)](https://youtu.be/L3lJZrAqqUQ)
 
-لینک داخلی دانلود ویدیو: https://nc.thearthur.ir/s/YaCp4zAzepHJKi2
+- لینک یوتیوب: https://youtu.be/L3lJZrAqqUQ
+- لینک داخلی داناود ویدیو: https://nc.thearthur.ir/s/YaCp4zAzepHJKi2
 
 ---
 
