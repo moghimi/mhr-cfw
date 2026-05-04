@@ -2,7 +2,7 @@
 
 <div dir="rtl">
 
-[![GitHub](https://img.shields.io/badge/GitHub-MasterHttpRelayVPN-blue?logo=github)](https://github.com/denuitt1/mhr-cfw)
+[![GitHub](https://img.shields.io/badge/GitHub-MHR_CFW-blue?logo=github)](https://github.com/denuitt1/mhr-cfw)
 
 | [English](README.md) | [Persian](README_FA.md) |
 | :---: | :---: |
