@@ -1,20 +1,17 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Python application
+name: Build and Release EXE
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  release:
+    types: created
 
 permissions:
   contents: read
 
 jobs:
   build:
-
     runs-on: windows-latest
 
     steps:
@@ -35,5 +32,15 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Build 
-      run: pyinstaller --onefile main.py 
+    - name: Build EXE
+      run: pyinstaller --onefile main.py --name mhr-cfw.exe
+
+    - name: Upload EXE to Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: dist/mhr-cfw.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+        
